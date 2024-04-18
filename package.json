@@ -1,9 +1,13 @@
 {
-  "name": "todo-list",
+  "name": "@kanwalshahzadi/todo-list",
   "version": "1.0.0",
   "description": "cli based Todo list",
   "main": "index.js",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
